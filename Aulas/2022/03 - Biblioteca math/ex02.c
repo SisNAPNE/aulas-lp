@@ -4,12 +4,13 @@
 int main() {
 
     int x, y;
-    double pot;
+    double pot, raiz;
 
     printf("Digite dois valores inteiros: ");
     scanf("%i %i", &x, &y);
     
-    pot = pow(x, y);
+    pot = pow(y, x);
+    raiz = sqrt(pot);
     printf("Resultado = %lf", pot);
 
     printf("\n");
