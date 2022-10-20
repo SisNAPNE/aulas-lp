@@ -18,6 +18,19 @@ int main() {
         printf("%c", pont[a]);
     }
 
+    printf("\nNovo Tamanho: ");
+    scanf("%i", &tam);
+    pont = realloc(pont, tam * sizeof(char));
+
+    for(a; a<tam; a++) {
+        pont[a] = 'B';  
+    }
+
+    printf("\n");
+    for(a=0; a<tam; a++) {
+        printf("%c", pont[a]);
+    }
+
 
     printf("\n");
     return 0;
