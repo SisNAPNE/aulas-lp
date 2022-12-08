@@ -11,5 +11,10 @@
 #define COR_ROXO		printf("\33[35m");
 #define COR_AGUA		printf("\33[36m");
 #define COR_BRANCO 		printf("\33[37m");
+#define EMOJI_PAC	    printf("☻");
+#define EMOJI_MON	    printf("☠");
+#define EMOJI_VIDA	    printf("♥");
+
+// https://www.assuntoscriativos.com.br/2013/08/simbolos-da-tecla-alt-que-voce-ainda.html
 
 
