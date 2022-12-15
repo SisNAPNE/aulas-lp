@@ -8,6 +8,16 @@
 #define LAR 		    48
 #define ALT 		    32
 
+#define CAMINHO 	0
+#define PAREDE 		1
+#define PACMAN 		2
+#define FANTASMA	3
+#define TEMPF	    4
+#define PALHACO	    5
+#define TEMPP	    6
+#define VIDA		7
+#define PACMAN2	    8
+
 #define COR_PRETO 		printf("\33[30m");
 #define COR_VERMELHO 	printf("\33[31m");
 #define COR_VERDE 		printf("\33[32m");
@@ -16,6 +26,8 @@
 #define COR_ROXO		printf("\33[35m");
 #define COR_AGUA		printf("\33[36m");
 #define COR_BRANCO 		printf("\33[37m");
+
+
 
 #define EMOJI_PAC	    printf("🙂");
 #define EMOJI_PAC2	    printf("😃");
