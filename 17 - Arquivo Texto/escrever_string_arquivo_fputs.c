@@ -16,7 +16,8 @@ int main() {
     }
 
     printf("Digite um nome: ");
-    gets(str);
+    fgets(str, 100, stdin);
+    // gets(str);
     fputs(str, fp);
     fputc('\n', fp);
     
