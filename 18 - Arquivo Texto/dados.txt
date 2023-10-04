@@ -1,0 +1,8 @@
+Valor
+12
+Valor
+34
+Valor
+3.141500
+Valor
+2.560000

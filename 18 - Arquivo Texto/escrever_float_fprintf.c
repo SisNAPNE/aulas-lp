@@ -4,21 +4,23 @@
 
 int main() {
 
+    float valor;
     FILE *fp;
-    char str[100];
 
-    fp = fopen("arquivo.txt", "a+");
+    fp = fopen("dados.txt", "a+");
 
     if(fp == NULL) {
         printf("Não foi possível abrir o arquivo!\n");
         return 0;
     }
 
-    while(fgets(str, 100, fp) != NULL) {
-        printf("%s", str);
-    } 
-    
+    printf("Digite um valor float: ");
+    scanf("%f", &valor);
+
+    fprintf(fp, "Valor\n%f\n", valor);
+
     fclose(fp);
     printf("\n");
     return 0;
 }
+
