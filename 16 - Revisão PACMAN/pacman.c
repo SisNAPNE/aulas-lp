@@ -1,10 +1,28 @@
-#include "keyboard.h"
 #include "gea.h"
+#include "keyboard.h"
 
 int main() {
-		
-	printf("\n");
-	return 0;
+
+    int final = 0;
+    int mapa[ALT][LAR];
+    char jogada;
+
+    
+    iniciarMapa(mapa, 0);
+    // EDIÇÃO DO MAPA
+    while(final == 0) {
+        desenharMapa(mapa, 1);
+        jogada = getTecla();
+        final = atualizarMapa(mapa, jogada);
+    }
+
+    // JOGO
+    final = 0;
+    while(final == 0) {
+        desenharMapa(mapa, 0);
+        jogada = getTecla();
+        final = efetuarJogada(mapa, jogada);
+    }
+
+    return 0;
 }
-
-
