@@ -24,6 +24,8 @@ void menuPrincipal(int op) {
     if(op == 3) { printf("🧱🧱 💣"); } else { printf("🧱🧱   "); }
     printf(" Carregar Mapa 🧱🧱\n");
     if(op == 4) { printf("🧱🧱 💣"); } else { printf("🧱🧱   "); }
+    printf(" Continuar Game🧱🧱\n");
+    if(op == 5) { printf("🧱🧱 💣"); } else { printf("🧱🧱   "); }
     printf(" Sair          🧱🧱\n");
     printf("🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱\n");
     printf("🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱\n");

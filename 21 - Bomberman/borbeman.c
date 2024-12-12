@@ -30,21 +30,25 @@ int main() {
 				case 3:
 						printf("CARREGAR MAPA");
 						break;
-				// SAIR
+				// CONTINUAR GAME
 				case 4:
+						printf("CONTINUAR GAME");
+						break;
+				// SAIR
+				case 5:
 						op = -1;
 						break;
 			}
 
-			if(pmenu != 4) {
+			if(pmenu != 5) {
 				fflush(stdout);
 				__fpurge(stdin);
 				getchar();
 			}
 		}
 		
-		if(pmenu > 4) pmenu = 1;
-		if(pmenu < 1) pmenu = 4;
+		if(pmenu > 5) pmenu = 1;
+		if(pmenu < 1) pmenu = 5;
 	}
 
 	printf("\n");
